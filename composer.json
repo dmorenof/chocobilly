@@ -1,0 +1,20 @@
+{
+  "description": "Order processor for the Chocobilly's Farm.",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Moreno Falero",
+      "email": "david.moreno.falero@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChocoBillyFarm\\": "src/"
+    }
+  }
+}
